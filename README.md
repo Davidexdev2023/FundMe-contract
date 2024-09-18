@@ -40,7 +40,7 @@ If you'd like to contribute or explore the contract further, follow these steps:
 
 Clone the Repository:
 '''
-    git clone https://github.com/Davidexdev2023/FundMe-contract
+    git clone https://github.com/Davidexdev2023/FundMe-contract.git
 '''
 Install Dependencies: Make sure you have Foundry installed for local testing.
 
