@@ -19,7 +19,7 @@ contract TestFundMe is Test {
       if (address(fundMe).balance > 0){
             vm.prank(msg.sender);
             fundMe.Withdraw();
-           // console.log("After the withraw in setUp, balance is", address(fundMe).balance);
+            console.log("After the withraw in setUp, balance is", address(fundMe).balance);
         }
        vm.deal(USER,VALUE);
     }
